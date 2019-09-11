@@ -34,7 +34,7 @@ def buscarNoticias():
 def buscarAgenda():
     d = datetime.now() - timedelta(minutes = -90)
     hojeUberHub = d.strftime('%Y-%m-%dT00:00:00-03:00')
-    querystring = {"key":"AIzaSyCUMuDu23XkyduDqDe-8ZyQDS04SIDTYpI",
+    querystring = {"key":os.environ['GOOGLE_API_KEY'],
                     "timeMin":hojeUberHub
                     } 
     url = "https://www.googleapis.com/calendar/v3/calendars/triangulodainovacao@gmail.com/events"           
