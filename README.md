@@ -46,7 +46,7 @@ serverless deploy
 9. Vincule o bot ao endpoint gerado com o POST: (Substitua o Token do bot  e o Endpoint ) 
 
 ```curl
-curl --request POST --url [https://api.telegram.org/bot](https://api.telegram.org/botTOKENDOBOT/setWebhook)`459903168:APHruyw7ZFj5qOJmJGeYEmfFJxil-z5uLS8`[/setWebhook](https://api.telegram.org/botTOKENDOBOT/setWebhook) --header 'content-type: application/json' --data '{"url": "https://endpoint-xpto.execute-api.us-west-2.amazonaws.com/prod/message"}'
+curl --request POST --url [https://api.telegram.org/bot](https://api.telegram.org/botTOKENDOBOT/setWebhook)`TOKENDOBOT`[/setWebhook](https://api.telegram.org/botTOKENDOBOT/setWebhook) --header 'content-type: application/json' --data '{"url": "https://endpoint-xpto.execute-api.us-west-2.amazonaws.com/prod/message"}'
 ```
 
 Caso o vinculo do endpoint com o bot esteja correto o retorno será:
@@ -62,8 +62,8 @@ Caso o vinculo do endpoint com o bot esteja correto o retorno será:
 ## Como Contribuir?
 
 1. 🍴 Faça um Fork neste repo 
-2. 🔨 Faça suas contribuições
-3. 👥 Adicione seu nome e seu perfil nos créditos
+2. 🔨 Faça seus desenvolvimentos
+3. 👥 Adicione seu nome e seu perfil na lista de contribuidores 
 4. 🔧 Faça um pull request [aqui](https://github.com/UberHub/UberHub_BotTelegram/compare)
 5. 🎉 Analisamos as contribuições e aprovamos! Sucesso!
 
