@@ -65,7 +65,7 @@ Caso o vinculo do endpoint com o bot esteja correto o retorno será:
 2. 🔨 Faça seus desenvolvimentos
 3. 👥 Adicione seu nome e seu perfil na lista de contribuidores 
 4. 🔧 Faça um pull request [aqui](https://github.com/UberHub/UberHub_BotTelegram/compare)
-5. 🎉 Analisamos as contribuições e aprovamos! Sucesso!
+5. 🎉 Analisamos as contribuições e aprovamos (Já pode refletir no bot da comunidade)! 
 
 Ou se quiser [crie issues](https://github.com/UberHub/UberHub_BotTelegram/issues/new) para melhorarmos os projetos!! 😊
 
